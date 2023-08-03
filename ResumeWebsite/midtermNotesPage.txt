@@ -1,0 +1,24 @@
+Minimum of 5 pages - Verified - index, aboutme, skillsandawards, family, resume, and contact.html
+
+Homepage named index.html - Verified
+
+CSS external - Verified in .zip file - Used for index, aboutme, skillsandawards, and contact.html pages
+
+CSS internal - Verified on resume.html - starting at line 9 with <style> and ends on Line 75 with </style> (for the navbar dropdown)
+
+CSS inline - Verified on resume.html - First example starts on Line 94
+
+Graphics/Animation - Verfied - myText animation located in css folder for animations
+
+Images - Verfied - multiple across many pages
+
+Links - Verfied - all links word with each other
+
+Email - email address is provided on every page
+
+CSS fonts - Verified - on resume.html Line 10
+
+CSS border - Verified - styles.css Line 43 for h2 border-bottom
+
+CSS padding - Verified - styles.css Line 88 for nav a padding
+

@@ -1,0 +1,22 @@
+
+    let navigate = useNavigate()
+
+    const  [university, setUniversity] = useState({
+        name: "",
+        state: "",
+        mascot: "",
+        address: "",
+        acceptanceRate: "",
+    });
+
+    const {name, state, mascot, address, acceptanceRate} = university;
+
+    const onInputChange = (e) => {
+        setUniversity({...university,[e.target.universityName]:e.target.value});
+    };
+
+    const onSubmit = async (e) => {
+        e.preventDefault();
+        await axios.post("http://localhost:8080/university", university);
+        navigate("/");
+    };
